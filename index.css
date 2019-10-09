@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+nav ul a {
+  display: inline-block;
+  margin-right: 10px;
+}
+.left {
+  display: inline-block;
+}
+.right {
+  float: right;
+}
+.top-left-box {
+margin: 0 12%
+  }
+  #banner {
+    background: linear-gradient(to right, #c0267d, #d62e2e);
+    padding: 10% 0;
+  }
+.banner-image {
+  display: inline-block;
+  width: 500px;
+}
+.banner-content {
+  float: right;
+  width: 400px;
+  color: #ffffff;
+}
+.banner-description {
+  float: right;
+  width: 400px;
+  line-height: 30px;
+  font-size: 16px;
+  border-top: 2px dashed #8d1c1c;
+  border-bottom: 2px dashed #8d1c1c;
+}
+.button-wht {
+  background-color: white;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 15px 0;
+  font-size: 18px;
+  color: black;
+}
+.cents {
+  font-size: 12px;
+  font-style: color white;
+  position: relative;
+  bottom: 5px;
+}
