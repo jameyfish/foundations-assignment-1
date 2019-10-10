@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 nav ul a {
   display: inline-block;
@@ -11,13 +11,14 @@ nav ul a {
 }
 .right {
   float: right;
+  padding-right: 10px;
 }
-.top-left-box {
+.top-left-right-box {
 margin: 0 12%
   }
   #banner {
     background: linear-gradient(to right, #c0267d, #d62e2e);
-    padding: 10% 0;
+    padding: 5% 0%;
   }
 .banner-image {
   display: inline-block;
@@ -26,11 +27,20 @@ margin: 0 12%
 .banner-content {
   float: right;
   width: 400px;
+  margin-left: 7%;
   color: #ffffff;
 }
+h1 {
+  margin: 1% 0%;
+}
+h4 {
+  margin: 4% 0%;
+}
 .banner-description {
-  float: right;
+  float: left;
   width: 400px;
+  height: 145px;
+  margin-bottom: 3%;
   line-height: 30px;
   font-size: 16px;
   border-top: 2px dashed #8d1c1c;
@@ -46,8 +56,86 @@ margin: 0 12%
   color: black;
 }
 .cents {
-  font-size: 12px;
+  font-size: 18px;
   font-style: color white;
   position: relative;
-  bottom: 5px;
+  bottom: 7px;
+  margin-right: 9%;
+}
+#top-tab-banner {
+  background: white;
+  padding: 2% 0;
+  border-bottom: 1px solid #e26a6a;
+}
+p {
+  font-size: 16px;
+}
+p1 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 2%;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #000;
+}
+p2 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #636363;
+}
+p3 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 2%;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000;
+}
+p4 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #636363;
+}
+p5 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 3.5%;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #000;
+}
+p6 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #636363;
+}
+p7 {
+  display: block;
+  margin-left: 14%;
+  margin-top: 3%;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #000;
+}
+p8 {
+  display: block;
+  margin-left: 0%;
+  margin-top: 1%;
+  margin-bottom: 8%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #636363;
+}
+#lower-tab-banner {
+  background: #c2c2c2;
+  padding: 2% 0;
 }
