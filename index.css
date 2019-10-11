@@ -8,6 +8,7 @@ nav ul a {
 }
 .left {
   display: inline-block;
+  margin-left: 0;
 }
 .right {
   float: right;
@@ -70,7 +71,10 @@ h4 {
 p {
   font-size: 16px;
 }
-p1 {
+.copy-banner {
+  margin-bottom: 4%;
+}
+.pdp-copy p1, p3, p5, p7 {
   display: block;
   margin-left: 14%;
   margin-top: 2%;
@@ -78,64 +82,15 @@ p1 {
   font-size: 22px;
   color: #000;
 }
-p2 {
-  display: block;
-  margin-left: 14%;
-  margin-top: 1%;
-  font-weight: bold;
-  font-size: 16px;
-  color: #636363;
-}
-p3 {
-  display: block;
+.pdp-copy p2, p4, p6, p8 {
   margin-left: 14%;
   margin-top: 2%;
   font-weight: bolder;
-  font-size: 20px;
-  color: #000;
-}
-p4 {
-  display: block;
-  margin-left: 14%;
-  margin-top: 1%;
-  font-weight: bold;
   font-size: 16px;
   color: #636363;
 }
-p5 {
-  display: block;
-  margin-left: 14%;
-  margin-top: 3.5%;
-  font-weight: bolder;
-  font-size: 22px;
-  color: #000;
-}
-p6 {
-  display: block;
-  margin-left: 14%;
-  margin-top: 1%;
-  font-weight: bold;
-  font-size: 16px;
-  color: #636363;
-}
-p7 {
-  display: block;
-  margin-left: 14%;
-  margin-top: 3%;
-  font-weight: bolder;
-  font-size: 22px;
-  color: #000;
-}
-p8 {
-  display: block;
-  margin-left: 0%;
-  margin-top: 1%;
-  margin-bottom: 8%;
-  font-weight: bold;
-  font-size: 16px;
-  color: #636363;
-}
-#lower-tab-banner p9 {
+
+#lower-tab-banner p10 {
   display: block;
   background: #c2c2c2;
   padding: 2% 0;
@@ -145,48 +100,32 @@ p8 {
   background: linear-gradient(to right, #c0267d, #d62e2e);
   padding: 5% 0%;
 }
-.orange-shoe {
-  display: inline-inline-block;
-  width: 200px;
-  margin-left: 12%;
+.bottom-container {
+  margin: 0 20%;
 }
-.black-shoe {
-  display: inline-inline-block;
-  width: 200px;
-  margin-left: 12%;
+
+.shoe-footer img {
+  width: 210px;
 }
-.blue-shoe {
-  display: inline-inline-block;
-  width: 200px;
-  margin-left: 12%;
+.shoe-footer {
+  display: inline-block;
+  color: #fff;
 }
-p10 {
-  margin-left: 12%;
-  color: white;
+.shoe-footer:nth-of-type(2n) {
+  margin: 0 10%;
 }
-p11 {
-margin-left: 20%;
-color: white;
+.price {
+  margin-left: 25px;
 }
-p12 {
-  margin-left: 18%;
-  color: white;
-}
-p13 {
-  margin-left: 12%;
-  color: white;
+.cents {
   font-size: 12px;
-  color: #8d1c1c;
+  position: relative;
+  bottom: 5px;
 }
-p14 {
-margin-left: 20%;
-color: white;
-font-size: 12px;
-color: #8d1c1c;
-}
-p15 {
-  margin-left: 18.5%;
-  color: white;
-  font-size: 12px;
-  color: #8d1c1c;
+p9 {
+  color: #801b19;
+  font-size: 14px;
+  margin-left: 0;
+  position: relative;
+  bottom: 15px;
 }
