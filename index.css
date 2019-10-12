@@ -64,9 +64,23 @@ h4 {
   margin-right: 9%;
 }
 #top-tab-banner {
+  display: block;
   background: white;
-  padding: 2% 0;
+  padding: 1 0;
   border-bottom: 1px solid #e26a6a;
+}
+.tabs li {
+  color: #801b19;
+  display: inline-block;
+  margin-right: 2%;
+  border-bottom: 2px solid #801b19;
+  }
+.tabs {
+  padding-top: 0;
+  padding-left: 0;
+  margin-left: 14%;
+  margin-bottom: 0;
+  margin-top: 25px;
 }
 p {
   font-size: 16px;
@@ -93,7 +107,7 @@ p {
 #lower-tab-banner p10 {
   display: block;
   background: #c2c2c2;
-  padding: 2% 0;
+  padding: 1% 0;
   text-align: center;
 }
 #banner {
@@ -120,7 +134,7 @@ p {
 .cents {
   font-size: 12px;
   position: relative;
-  bottom: 5px;
+  bottom: 8px;
 }
 p9 {
   color: #801b19;
