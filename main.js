@@ -18,3 +18,9 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+var btn = $('.button-wht');
+
+$('.button-wht').on('click', function () {
+  $('.button-wht').addClass('btn-black');
+})

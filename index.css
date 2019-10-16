@@ -55,6 +55,7 @@ h4 {
   margin: 15px 0;
   font-size: 18px;
   color: black;
+  cursor: pointer;
 }
 .cents {
   font-size: 18px;
@@ -63,7 +64,7 @@ h4 {
   bottom: 7px;
   margin-right: 9%;
 }
-#top-tab-banner {
+/* #top-tab-banner {
   display: block;
   background: white;
   padding: 0 0;
@@ -91,11 +92,11 @@ h4 {
 }
 p {
   font-size: 16px;
-}
-.copy-banner {
+} */
+/* .copy-banner {
   margin-bottom: 4%;
-}
-.pdp-copy p1, p3, p5, p7 {
+} */
+/* .pdp-copy p1, p3, p5, p7 {
   display: block;
   margin-left: 14%;
   margin-top: 2%;
@@ -109,7 +110,7 @@ p {
   font-weight: bolder;
   font-size: 16px;
   color: #636363;
-}
+} */
 
 #lower-tab-banner p10 {
   display: block;
@@ -123,6 +124,7 @@ p {
 }
 .bottom-container {
   margin: 0 20%;
+
 }
 
 .shoe-footer img {
@@ -153,8 +155,8 @@ p9 {
 /*my tab test*/
 .tabx {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border-bottom: 1px solid #8d1c1c;
+  background-color: white;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -166,18 +168,33 @@ p9 {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  color: #801b19;
+  font-size: 16px;
 }
 
 /* Change background color of buttons on hover */
 .tabx button:hover {
-  background-color: #ddd;
+  background-color: white;
 }
+
+/* .tabx {
+border-color: white;
+background-color: white;
+} */
+
 
 /* Create an active/current tablink class */
 .tabx button.active {
   background-color: #ccc;
+  border-bottom: 2px solid #801b19;
+  font-weight: bolder;
 }
-
+.reviews {
+  float: right !important;
+}
+#reviews {
+  text-align: right;
+}
 #product-details {
   display: block;
 }
@@ -186,6 +203,9 @@ p9 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
+}
+.btn-black {
+  background-color: black;
+  color: #fff;
 }
